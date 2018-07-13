@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1430A92B20F8856900665015 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430A92A20F8856900665015 /* AppDelegate.m */; };
+		1430A92E20F8856900665015 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430A92D20F8856900665015 /* ViewController.m */; };
+		1430A93120F8856900665015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1430A92F20F8856900665015 /* Main.storyboard */; };
+		1430A93320F8856900665015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1430A93220F8856900665015 /* Assets.xcassets */; };
+		1430A93620F8856900665015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1430A93420F8856900665015 /* LaunchScreen.storyboard */; };
+		1430A93920F8856900665015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430A93820F8856900665015 /* main.m */; };
+		1430A94320F8856900665015 /* IGListKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430A94220F8856900665015 /* IGListKitDemoTests.m */; };
+		1430A94E20F8856900665015 /* IGListKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430A94D20F8856900665015 /* IGListKitDemoUITests.m */; };
+		1430A96220F887C400665015 /* DemoSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430A96120F887C400665015 /* DemoSectionController.m */; };
+		1430A96520F8881900665015 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430A96420F8881900665015 /* DemoCollectionViewCell.m */; };
+		1430A96820F8886C00665015 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430A96720F8886C00665015 /* DemoModel.m */; };
+		C1C3EFF76BD01A7CDF091636 /* Pods_IGListKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB06F94DDA86797012E068 /* Pods_IGListKitDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1430A93F20F8856900665015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1430A91E20F8856900665015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1430A92520F8856900665015;
+			remoteInfo = IGListKitDemo;
+		};
+		1430A94A20F8856900665015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1430A91E20F8856900665015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1430A92520F8856900665015;
+			remoteInfo = IGListKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1430A92620F8856900665015 /* IGListKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1430A92920F8856900665015 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1430A92A20F8856900665015 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1430A92C20F8856900665015 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1430A92D20F8856900665015 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1430A93020F8856900665015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1430A93220F8856900665015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1430A93520F8856900665015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1430A93720F8856900665015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1430A93820F8856900665015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1430A93E20F8856900665015 /* IGListKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1430A94220F8856900665015 /* IGListKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGListKitDemoTests.m; sourceTree = "<group>"; };
+		1430A94420F8856900665015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1430A94920F8856900665015 /* IGListKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1430A94D20F8856900665015 /* IGListKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGListKitDemoUITests.m; sourceTree = "<group>"; };
+		1430A94F20F8856900665015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1430A96020F887C400665015 /* DemoSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSectionController.h; sourceTree = "<group>"; };
+		1430A96120F887C400665015 /* DemoSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSectionController.m; sourceTree = "<group>"; };
+		1430A96320F8881900665015 /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
+		1430A96420F8881900665015 /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
+		1430A96620F8886C00665015 /* DemoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		1430A96720F8886C00665015 /* DemoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+		B34C9A87213FDAFAA6D9DF14 /* Pods-IGListKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C2EBAC15C276AFA2F8A4C0E7 /* Pods-IGListKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E3FB06F94DDA86797012E068 /* Pods_IGListKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1430A92320F8856900665015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C3EFF76BD01A7CDF091636 /* Pods_IGListKitDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1430A93B20F8856900665015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1430A94620F8856900665015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1430A91D20F8856900665015 = {
+			isa = PBXGroup;
+			children = (
+				1430A95B20F8877700665015 /* Demo */,
+				1430A92820F8856900665015 /* IGListKitDemo */,
+				1430A94120F8856900665015 /* IGListKitDemoTests */,
+				1430A94C20F8856900665015 /* IGListKitDemoUITests */,
+				1430A92720F8856900665015 /* Products */,
+				FF52A570C6CC93614E44F2F6 /* Pods */,
+				57BAFD1698C9627425D91AAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1430A92720F8856900665015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1430A92620F8856900665015 /* IGListKitDemo.app */,
+				1430A93E20F8856900665015 /* IGListKitDemoTests.xctest */,
+				1430A94920F8856900665015 /* IGListKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1430A92820F8856900665015 /* IGListKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1430A92920F8856900665015 /* AppDelegate.h */,
+				1430A92A20F8856900665015 /* AppDelegate.m */,
+				1430A92F20F8856900665015 /* Main.storyboard */,
+				1430A93220F8856900665015 /* Assets.xcassets */,
+				1430A93420F8856900665015 /* LaunchScreen.storyboard */,
+				1430A93720F8856900665015 /* Info.plist */,
+				1430A93820F8856900665015 /* main.m */,
+			);
+			path = IGListKitDemo;
+			sourceTree = "<group>";
+		};
+		1430A94120F8856900665015 /* IGListKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1430A94220F8856900665015 /* IGListKitDemoTests.m */,
+				1430A94420F8856900665015 /* Info.plist */,
+			);
+			path = IGListKitDemoTests;
+			sourceTree = "<group>";
+		};
+		1430A94C20F8856900665015 /* IGListKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1430A94D20F8856900665015 /* IGListKitDemoUITests.m */,
+				1430A94F20F8856900665015 /* Info.plist */,
+			);
+			path = IGListKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		1430A95B20F8877700665015 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1430A95F20F887A100665015 /* Model */,
+				1430A95E20F8879800665015 /* View */,
+				1430A95D20F8879100665015 /* ViewController */,
+				1430A95C20F8877F00665015 /* SectionController */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		1430A95C20F8877F00665015 /* SectionController */ = {
+			isa = PBXGroup;
+			children = (
+				1430A96020F887C400665015 /* DemoSectionController.h */,
+				1430A96120F887C400665015 /* DemoSectionController.m */,
+			);
+			path = SectionController;
+			sourceTree = "<group>";
+		};
+		1430A95D20F8879100665015 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1430A92C20F8856900665015 /* ViewController.h */,
+				1430A92D20F8856900665015 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1430A95E20F8879800665015 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1430A96320F8881900665015 /* DemoCollectionViewCell.h */,
+				1430A96420F8881900665015 /* DemoCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1430A95F20F887A100665015 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1430A96620F8886C00665015 /* DemoModel.h */,
+				1430A96720F8886C00665015 /* DemoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57BAFD1698C9627425D91AAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB06F94DDA86797012E068 /* Pods_IGListKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF52A570C6CC93614E44F2F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2EBAC15C276AFA2F8A4C0E7 /* Pods-IGListKitDemo.debug.xcconfig */,
+				B34C9A87213FDAFAA6D9DF14 /* Pods-IGListKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1430A92520F8856900665015 /* IGListKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1430A95220F8856900665015 /* Build configuration list for PBXNativeTarget "IGListKitDemo" */;
+			buildPhases = (
+				6D1A2B8EEAB7774F5DE7C024 /* [CP] Check Pods Manifest.lock */,
+				1430A92220F8856900665015 /* Sources */,
+				1430A92320F8856900665015 /* Frameworks */,
+				1430A92420F8856900665015 /* Resources */,
+				760AC5D0388D228EF31565A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGListKitDemo;
+			productName = IGListKitDemo;
+			productReference = 1430A92620F8856900665015 /* IGListKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1430A93D20F8856900665015 /* IGListKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1430A95520F8856900665015 /* Build configuration list for PBXNativeTarget "IGListKitDemoTests" */;
+			buildPhases = (
+				1430A93A20F8856900665015 /* Sources */,
+				1430A93B20F8856900665015 /* Frameworks */,
+				1430A93C20F8856900665015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1430A94020F8856900665015 /* PBXTargetDependency */,
+			);
+			name = IGListKitDemoTests;
+			productName = IGListKitDemoTests;
+			productReference = 1430A93E20F8856900665015 /* IGListKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1430A94820F8856900665015 /* IGListKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1430A95820F8856900665015 /* Build configuration list for PBXNativeTarget "IGListKitDemoUITests" */;
+			buildPhases = (
+				1430A94520F8856900665015 /* Sources */,
+				1430A94620F8856900665015 /* Frameworks */,
+				1430A94720F8856900665015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1430A94B20F8856900665015 /* PBXTargetDependency */,
+			);
+			name = IGListKitDemoUITests;
+			productName = IGListKitDemoUITests;
+			productReference = 1430A94920F8856900665015 /* IGListKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1430A91E20F8856900665015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wsmbp;
+				TargetAttributes = {
+					1430A92520F8856900665015 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1430A93D20F8856900665015 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1430A92520F8856900665015;
+					};
+					1430A94820F8856900665015 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1430A92520F8856900665015;
+					};
+				};
+			};
+			buildConfigurationList = 1430A92120F8856900665015 /* Build configuration list for PBXProject "IGListKitDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1430A91D20F8856900665015;
+			productRefGroup = 1430A92720F8856900665015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1430A92520F8856900665015 /* IGListKitDemo */,
+				1430A93D20F8856900665015 /* IGListKitDemoTests */,
+				1430A94820F8856900665015 /* IGListKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1430A92420F8856900665015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1430A93620F8856900665015 /* LaunchScreen.storyboard in Resources */,
+				1430A93320F8856900665015 /* Assets.xcassets in Resources */,
+				1430A93120F8856900665015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1430A93C20F8856900665015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1430A94720F8856900665015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D1A2B8EEAB7774F5DE7C024 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGListKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		760AC5D0388D228EF31565A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitDemo/Pods-IGListKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1430A92220F8856900665015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1430A96820F8886C00665015 /* DemoModel.m in Sources */,
+				1430A96220F887C400665015 /* DemoSectionController.m in Sources */,
+				1430A92E20F8856900665015 /* ViewController.m in Sources */,
+				1430A93920F8856900665015 /* main.m in Sources */,
+				1430A96520F8881900665015 /* DemoCollectionViewCell.m in Sources */,
+				1430A92B20F8856900665015 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1430A93A20F8856900665015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1430A94320F8856900665015 /* IGListKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1430A94520F8856900665015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1430A94E20F8856900665015 /* IGListKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1430A94020F8856900665015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1430A92520F8856900665015 /* IGListKitDemo */;
+			targetProxy = 1430A93F20F8856900665015 /* PBXContainerItemProxy */;
+		};
+		1430A94B20F8856900665015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1430A92520F8856900665015 /* IGListKitDemo */;
+			targetProxy = 1430A94A20F8856900665015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1430A92F20F8856900665015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1430A93020F8856900665015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1430A93420F8856900665015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1430A93520F8856900665015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1430A95020F8856900665015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1430A95120F8856900665015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1430A95320F8856900665015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EBAC15C276AFA2F8A4C0E7 /* Pods-IGListKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IGListKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coder-.IGListKitDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1430A95420F8856900665015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34C9A87213FDAFAA6D9DF14 /* Pods-IGListKitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IGListKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coder-.IGListKitDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1430A95620F8856900665015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IGListKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coder-.IGListKitDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGListKitDemo.app/IGListKitDemo";
+			};
+			name = Debug;
+		};
+		1430A95720F8856900665015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IGListKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coder-.IGListKitDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGListKitDemo.app/IGListKitDemo";
+			};
+			name = Release;
+		};
+		1430A95920F8856900665015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IGListKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coder-.IGListKitDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IGListKitDemo;
+			};
+			name = Debug;
+		};
+		1430A95A20F8856900665015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IGListKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Coder-.IGListKitDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IGListKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1430A92120F8856900665015 /* Build configuration list for PBXProject "IGListKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1430A95020F8856900665015 /* Debug */,
+				1430A95120F8856900665015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1430A95220F8856900665015 /* Build configuration list for PBXNativeTarget "IGListKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1430A95320F8856900665015 /* Debug */,
+				1430A95420F8856900665015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1430A95520F8856900665015 /* Build configuration list for PBXNativeTarget "IGListKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1430A95620F8856900665015 /* Debug */,
+				1430A95720F8856900665015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1430A95820F8856900665015 /* Build configuration list for PBXNativeTarget "IGListKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1430A95920F8856900665015 /* Debug */,
+				1430A95A20F8856900665015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1430A91E20F8856900665015 /* Project object */;
+}
